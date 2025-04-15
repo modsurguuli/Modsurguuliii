@@ -94,14 +94,14 @@
   
     <thead style="background:#2e7d32; color:white;">
   <tr>
-  <td>Хайлаас</td>
-  <td>Ulmus pumila</td>
-  <td>0.8–1.5 м</td>
-  <td class="price">2500</td>
-  <td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td>
-  <td class="discount">0%</td>
-  <td class="total">0₮</td>
-</tr>
+    <th>Монгол нэр</th>
+    <th>Латин нэр</th>
+    <th>Өндөр</th>
+    <th>Үнэ (₮)</th>
+    <th>Тоо ширхэг</th>
+    <th>Хөнгөлөлтийн хувь</th>
+    <th>Хөнгөлөлтийн дараах үнэ</th>
+  </tr>
 </thead>
 <tr><td>Хайлаас</td><td>Ulmus pumila</td><td>0.8–1.5 м</td><td class="price">2500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Шар хуайс</td><td>Robinia pseudoacacia</td><td>1.0–1.5 м</td><td class="price">3200</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
@@ -119,34 +119,10 @@
 <tr><td>Бургас</td><td>Salix caprea</td><td>1.6–2.0 м</td><td class="price">2500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Өрөл</td><td>Berberis sibirica</td><td>0.5–0.8 м</td><td class="price">8500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <script>
-function calculateTotal(input) {
-  const row = input.closest('tr');
-  const price = parseInt(row.querySelector('.price').textContent);
-  const qty = parseInt(input.value);
-  const discountCell = row.querySelector('.discount');
-  const totalCell = row.querySelector('.total');
 
-  let discount = 0;
-  if (qty >= 1000) discount = 0.05;
-  else if (qty >= 100) discount = 0.02;
-
-  if (!isNaN(qty) && qty > 0) {
-    const total = qty * price * (1 - discount);
-    discountCell.textContent = (discount * 100) + '%';
-    totalCell.textContent = total.toLocaleString() + '₮';
-  } else {
-    discountCell.textContent = '0%';
-    totalCell.textContent = '0₮';
-  }
 }
 </script>
-    </tbody>
-  <section id="trees">
-  <h2>🌳 Худалдаа - Модны үнийн санал</h2>
-  <div style="overflow-x:auto;">
-    <table>
-      ...
-    </table>
+
   </div>
   <p style="margin-top:1rem;"><strong>Урамшуулал:</strong> 100 ширхэгээс дээш -2%, 1000 ширхэгээс дээш -5%</p>
   <p style="margin-top:1rem;"><strong>Худалдааны данс:</strong><br>Голомт банк - Оренжэри Ган ХХК - <b>MN750015006205150721</b></p>
