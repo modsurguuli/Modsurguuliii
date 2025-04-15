@@ -103,6 +103,7 @@
     <th>Хөнгөлөлтийн дараах үнэ</th>
   </tr>
 </thead>
+  
 <tr><td>Хайлаас</td><td>Ulmus pumila</td><td>0.8–1.5 м</td><td class="price">2500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Шар хуайс</td><td>Robinia pseudoacacia</td><td>1.0–1.5 м</td><td class="price">3200</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Гацуур</td><td>Picea obovata</td><td>1.3–1.5 м</td><td class="price">250000</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
@@ -118,6 +119,8 @@
 <tr><td>Улиас</td><td>Populus suaveolens</td><td>1.6–2.0 м</td><td class="price">8500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Бургас</td><td>Salix caprea</td><td>1.6–2.0 м</td><td class="price">2500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Өрөл</td><td>Berberis sibirica</td><td>0.5–0.8 м</td><td class="price">8500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
+    </tbody>
+  </table>
 <script>
 
 }
