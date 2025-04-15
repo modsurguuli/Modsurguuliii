@@ -86,7 +86,7 @@
 
    <p><strong>Төлбөр:</strong> 35,000₮</p>
   <ul>
-  <p><strong>Төлбөр төлөх:</strong><br>Голомт банк - Оренжэри Ган ХХК - <b>MN75 0015 00 6205150721</b></p>
+  <p><strong>Төлбөр төлөх:</strong><br>Голомт банк - Оренжэри Ган ХХК - <b>MN750015006205150721</b></p>
 
 
 <section id="trees">
@@ -118,10 +118,27 @@
 <tr><td>Улиас</td><td>Populus suaveolens</td><td>1.6–2.0 м</td><td class="price">8500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Бургас</td><td>Salix caprea</td><td>1.6–2.0 м</td><td class="price">2500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
 <tr><td>Өрөл</td><td>Berberis sibirica</td><td>0.5–0.8 м</td><td class="price">8500</td><td><input type="number" value="0" min="0" onchange="calculateTotal(this)"></td><td class="total">0₮</td></tr>
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/ВАШ-ID/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
     </tbody>
-  </table>
+  <section id="trees">
+  <h2>🌳 Худалдаа - Модны үнийн санал</h2>
+  <div style="overflow-x:auto;">
+    <table>
+      ...
+    </table>
+  </div>
   <p style="margin-top:1rem;"><strong>Урамшуулал:</strong> 100 ширхэгээс дээш -2%, 1000 ширхэгээс дээш -5%</p>
-  <p style="margin-top:1rem;"><strong>Худалдааны данс:</strong><br>Голомт банк - Оренжэри Ган ХХК - <b>MN75 0015 00 6205150721</b></p>
+  <p style="margin-top:1rem;"><strong>Худалдааны данс:</strong><br>Голомт банк - Оренжэри Ган ХХК - <b>MN750015006205150721</b></p>
 <p style="margin-top:1rem;"><strong>📞 Захиалга өгөх:</strong><br>7211-1311, 8045-6988<br>modsurguuli@gmail.com</p>
 <p style="margin-top:2rem;"><strong>📩 Захиалга өгөх форм:</strong><br><a href="https://forms.gle/your-form-link" target="_blank">Захиалгын форм бөглөх</a></p>
 <p style="margin-top:2rem;"><strong>📦 Хүргэлтийн нөхцөл:</strong><br>Захиалсан модыг Улаанбаатар хот дотор хүргэх боломжтой. Хөдөө орон нутгийн хүргэлтийг унаанд тавьж өгнө. Хүргэлтийн зардлыг захиалагч хариуцна.</p>
@@ -130,7 +147,7 @@
   <h2>📞 Холбоо барих</h2>
   <p>Бидэнтэй холбогдохын тулд дараах мэдээллийг ашиглана уу:</p>
   <ul>
-    <li>📍 Хаяг: Улаанбаатар хот, Хан-Уул дүүрэг, 52-р байр</li>
+    <li>📍 Хаяг: Улаанбаатар хот, Хан-Уул дүүрэг, 52 </li>
     <li>📞 Утас: +976 7211-1311, 8045-6988</li>
     <li>📧 Имэйл: modsurguuli@gmail.com</li>
 
@@ -138,5 +155,3 @@
 <footer>
   &copy; 2025 Мод Сургууль — Урамшуулалт мод захиалга. Бүх эрх хуулиар хамгаалагдсан.
 </footer>
-</body>
-</html>
