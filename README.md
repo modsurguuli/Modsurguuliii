@@ -16,9 +16,39 @@
     section { padding: 2rem 1rem; max-width: 1000px; margin: auto; }
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
-    @media (max-width: 768px) {
-      nav { flex-direction: column; }
-    }
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+.hero h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+ nav {
+    flex-direction: column;
+    align-items: center;
+  }
+nav a {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+h2, h3 {
+    font-size: 18px;
+  }
+ p, li {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+ .hero {
+    height: auto;
+    padding: 1rem;
+    background-size: cover;
+  }
+}
+
+   
   </style>
   <script>
     function calculateTotal(input) {
