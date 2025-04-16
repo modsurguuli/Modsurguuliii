@@ -17,7 +17,19 @@
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
     @media (max-width: 768px) {
-      nav { flex-direction: column; }
+  section {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p, li {
+    font-size: 15px;
+  }
+}
+      
     }
   </style>
   <script>
